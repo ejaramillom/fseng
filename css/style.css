@@ -1,0 +1,297 @@
+body, head, p, li {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.no-js #loader {
+  display: none;
+}
+
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0; }
+
+#loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999999;
+  background-size: cover;
+  opacity: 0;
+}
+
+hr {
+  color: #60abc1 !important;
+}
+
+.sectionTitle h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	font-size: 1.7em;
+	color: #60abc1;
+}
+
+.sectionContent h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.4em;
+	color: #60abc1;
+}
+
+.sectionContent h4 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2em;
+	color: #60abc1;
+}
+
+.subDetails {
+	font-size: 0.9em;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+#cv {
+	width: 90%;
+	background: #fff;
+	margin: 30px auto;
+}
+
+.mainDetails {
+	border: 6px solid #6fa8ea;
+	background: #9bcdf3;
+}
+
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 2em;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#mainArea {
+  background: #369ce8;
+  border: 6px solid #6fa8ea;
+}
+
+#mainLink {
+  margin-top: 4em;
+  background: #369ce8;
+}
+
+#headshot {
+  border-radius: 1em;
+  padding-left: 4.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+#headshot img {
+  border-radius: 1em;
+  border: 0.1em solid #6fa8ea;
+  width: 160px;
+}
+
+.border {
+  border-radius: 1.5em;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+@-webkit-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fade-out {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+  100% {
+		opacity: 0;
+    display:none;
+    z-index: -1;
+	}
+}
+
+@-moz-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fade-out {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+  100% {
+		opacity: 0;
+    display:none;
+    z-index: -1;
+	}
+}
+
+@keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fade-out {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+  100% {
+		opacity: 0;
+    display:none;
+    z-index: -1;
+	}
+}
+
+.instaLoad {
+    -webkit-animation-name: reset, fade-out;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+
+	  -moz-animation-name: reset, fade-out;
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-fill-mode: forwards;
+
+	  animation-name: reset, fade-out;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.instaFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: ease-in;
+
+	  -moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 2.5s;
+    -moz-animation-timing-function: ease-in;
+
+	  animation-name: reset, fade-in;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+}
+
+.quickFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 3.5s;
+    -webkit-animation-timing-function: ease-in;
+
+	  -moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 3.5s;
+    -moz-animation-timing-function: ease-in;
+
+	  animation-name: reset, fade-in;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in;
+}
+
+.delayOne {
+	-webkit-animation-delay: 0, .5s;
+	-moz-animation-delay: 0, .5s;
+	animation-delay: 0, .5s;
+}
+
+.delayTwo {
+	-webkit-animation-delay: 0, 1s;
+	-moz-animation-delay: 0, 1s;
+	animation-delay: 0, 1s;
+}
+
+.delayThree {
+	-webkit-animation-delay: 0, 1.5s;
+	-moz-animation-delay: 0, 1.5s;
+	animation-delay: 0, 1.5s;
+}
+
+.delayFour {
+	-webkit-animation-delay: 0, 2s;
+	-moz-animation-delay: 0, 2s;
+	animation-delay: 0, 2s;
+}
+
+.delayFive {
+	-webkit-animation-delay: 0, 2.5s;
+	-moz-animation-delay: 0, 2.5s;
+	animation-delay: 0, 2.5s;
+}
