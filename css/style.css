@@ -122,6 +122,14 @@ p {
 	transition: all .3s ease-in;
 }
 
+.checked {
+  color: orange;
+}
+
+.important {
+  color: #97CCF0;
+}
+
 @-webkit-keyframes reset {
 	0% {
 		opacity: 0;
