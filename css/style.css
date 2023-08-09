@@ -23,6 +23,12 @@ body, head, p, li {
   opacity: 0;
 }
 
+.blockDisplay {
+    display: block;
+		clear: both;
+		white-space: pre-line;
+}
+
 hr {
   color: #60abc1 !important;
 }
